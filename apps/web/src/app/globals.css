@@ -1,0 +1,13 @@
+﻿*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+.table{border-collapse:collapse;width:100%;background:#fff;border:1px solid #e7e7e7}
+.table th,.table td{padding:10px 12px;border-top:1px solid #eee}
+.table th{background:#fafafa;text-align:left;font-weight:600}
+.card{background:#fff;border:1px solid #e7e7e7;border-radius:12px;padding:16px}
+.grid{display:grid;gap:16px}
+.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.kpi{font-size:28px;font-weight:700}
+.kpi-label{color:#667}
+.sidebar a{display:block;padding:10px 12px;border-radius:10px;color:#222;text-decoration:none}
+.sidebar a.active{background:#eef4ff}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;border-bottom:1px solid #e7e7e7;background:#fff;position:sticky;top:0;z-index:1}

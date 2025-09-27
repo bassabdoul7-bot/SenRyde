@@ -1,0 +1,8 @@
+{
+  "name": "senryde",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev": "npm --workspace apps/backend run dev"
+  }
+}
